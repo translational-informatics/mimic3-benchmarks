@@ -1,7 +1,7 @@
 LEVEL2,LEVEL1,ALTERNATIVE,STATUS,STATUS NOTE,ITEMID,MIMIC LABEL,UNITNAME,LINKSTO,COUNT,CATEGORY,CONCEPTID,FLUID,LOINC_CODE,DBSOURCE,,PARAM_TYPE,NOTE
-Alanine aminotransferase,Alanine aminotransferase,ALT,verify,,50861,ALANINE AMINOTRANSFERASE (ALT),,labevents,219475,CHEMISTRY,,BLOOD,6/1/1742,,,,
-Alanine aminotransferase,Alanine aminotransferase,ALT,verify,,769,ALT,,chartevents,41594,Enzymes,,,,carevue,,,
-Alanine aminotransferase,Alanine aminotransferase,ALT,verify,,220644,ALT,None,chartevents,37625,Labs,,,,metavision,,Numeric,
+Alanine aminotransferase,Alanine aminotransferase,ALT,ready,,50861,ALANINE AMINOTRANSFERASE (ALT),,labevents,219475,CHEMISTRY,,BLOOD,6/1/1742,,,,
+Alanine aminotransferase,Alanine aminotransferase,ALT,ready,,769,ALT,,chartevents,41594,Enzymes,,,,carevue,,,
+Alanine aminotransferase,Alanine aminotransferase,ALT,ready,,220644,ALT,None,chartevents,37625,Labs,,,,metavision,,Numeric,
 Albumin,Albumin,,verify,,50862,ALBUMIN,,labevents,146697,CHEMISTRY,,BLOOD,7/1/1751,,,,
 Albumin,Albumin,,verify,,772,Albumin (>3.2),,chartevents,31022,Chemistry,,,,carevue,,,
 Albumin,Albumin,,verify,,1521,Albumin,,chartevents,24454,Chemistry,,,,carevue,,,
