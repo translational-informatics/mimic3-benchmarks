@@ -28,12 +28,12 @@ val_lines = [x for x in lines if x[:x.find("_")] in val_patients]
 assert len(train_lines) + len(val_lines) == len(lines)
 
 
-with open("%s/train_listfile.csv" % args.task, "w") as train_listfile:
+with open(data_dir+"%s/train_listfile.csv" % args.task, "w") as train_listfile:
     train_listfile.write(header)
     for line in train_lines:
         train_listfile.write(line)
 
-with open("%s/val_listfile.csv" % args.task, "w") as val_listfile:
+with open(data_dir+"%s/val_listfile.csv" % args.task, "w") as val_listfile:
     val_listfile.write(header)
     for line in val_lines:
         val_listfile.write(line)
