@@ -3,7 +3,7 @@ import shutil
 import argparse
 
 
-data_dir = '/hpcdata1/overby-mimic/pred_models/data'
+data_dir = '/hpcdata1/overby-mimic/pred_models/data/'
 parser = argparse.ArgumentParser(description="Split train data into train and validation sets.")
 parser.add_argument('task', type=str, help="Possible values are: decompensation, "\
                     "in-hospital-mortality, length-of-stay, phenotyping, multitask  .")
